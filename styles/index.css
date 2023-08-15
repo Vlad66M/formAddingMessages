@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#message-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin: 20px 0;
+}
+
+.row1{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 1000px;
+    height: 40px;
+}
+
+.row2{
+    padding: 10px 20px;
+    display: flex;
+    border: 1px solid black;
+    border-top: none;
+    width: 1000px;
+}
+
+h2{
+    margin: 10px;
+    font-size: 18px;
+}
+
+#add-message{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.form-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.form-label{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.message-input{
+    min-width: 860px;   
+    resize:vertical;
+    outline: none;
+}

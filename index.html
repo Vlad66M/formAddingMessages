@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+     <div id="messages-container">
+        <div class="message">
+            <div class="row1">
+                <p>Name</p>
+                <p>13:00:00 15.08.2023</p>
+            </div>
+            <div class="row2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde in quidem natus repellat dolores commodi ipsum voluptate? Illo ipsam voluptatem minima quas iure temporibus saepe culpa similique molestiae cum necessitatibus, est deserunt reprehenderit! Maxime, officiis tempore? Sapiente incidunt, laborum similique molestiae totam facere, officia rerum aspernatur dolorum error maxime.
+            </div>
+        </div>
+     </div>
+
+     
+
+     <form action="#" id="add-message" method="post">
+        <div class="form-header-container">
+            <h2 class="enroll-title">Add new message</h2>
+        </div>
+        <label for="name" class="form-label">
+            Your name:
+            <input type="text" name="name" class="message-input" id="message-name" required>
+        </label>
+
+        <label for="content" class="form-label">
+            Your message:
+            
+            <textarea name="content" class="message-input" id="message-content" required></textarea>
+        </label>
+
+        <button type="submit" id="message-submit" disabled>Send</button>
+    </form>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
